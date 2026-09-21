@@ -241,6 +241,7 @@ Dokumen tersebut berisi:
 ---
 
 # 📚 Praktikum
+Kelas: **RKS 3A MALAM**
 
 Mata Kuliah: **DevOps**
 
