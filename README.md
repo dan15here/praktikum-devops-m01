@@ -242,13 +242,9 @@ Dokumen tersebut berisi:
 
 # 📚 Praktikum
 
-Mata Kuliah:
+Mata Kuliah: **DevOps**
 
-**DevOps**
-
-Topik:
-
-**Introduction to DevOps: Filosofi, Budaya, & SDLC**
+Topik: **Introduction to DevOps: Filosofi, Budaya, & SDLC**
 
 Politeknik Negeri Batam
 
