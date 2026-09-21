@@ -241,11 +241,14 @@ Dokumen tersebut berisi:
 ---
 
 # 📚 Praktikum
-Kelas: **RKS 3A MALAM**
 
-Mata Kuliah: **DevOps**
+Mata Kuliah:
 
-Topik: **Introduction to DevOps: Filosofi, Budaya, & SDLC**
+**DevOps**
+
+Topik:
+
+**Introduction to DevOps: Filosofi, Budaya, & SDLC**
 
 Politeknik Negeri Batam
 
