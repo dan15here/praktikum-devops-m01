@@ -36,10 +36,10 @@ Dampak yang terjadi:
 - Terjadi komunikasi tambahan antara Developer dan Operations.
 
 Lead Time sebelum otomasi:
-[ISI DATA JOB 2]
+[10 menit]
 
 Lead Time setelah otomasi:
-[ISI DATA JOB 4]
+[2 menit]
 
 ## Akar Masalah pada Sistem
 
