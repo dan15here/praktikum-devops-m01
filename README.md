@@ -10,10 +10,10 @@ Aplikasi yang digunakan adalah **Sentra Digital Batam**, yaitu aplikasi sederhan
 
 ## 👥 Team
 
-| Role | Member |
-|---|---|
-| Developer | Laila Rezky |
-| Operations | Muhammad Danish |
+| Role | Member | NIM |
+|---|---|---|
+| Developer | Laila Rezky | 4332511025 |
+| Operations | Muhammad Danish | 4332511020 |
 
 ---
 
@@ -563,8 +563,20 @@ Postmortem dibuat dengan pendekatan tanpa menyalahkan individu. Fokus utama adal
 
 # 📚 Informasi Praktikum
 
+**Jurusan**
+Teknik Informatika
+
+**Program Studi**
+Rekayasa Keamanan Siber
+
+**Semester**
+3
+
 **Mata Kuliah:**  
 DevOps
+
+**Institusi:**  
+Politeknik Negeri Batam
 
 **Topik Minggu 1:**  
 Introduction to DevOps: Filosofi, Budaya, dan SDLC
@@ -575,5 +587,4 @@ Shell Scripting, System Report, dan Monitoring Layanan
 **Topik Minggu 3:**  
 Version Control dengan Git, GitHub, SSH, dan Keamanan Repository
 
-**Institusi:**  
-Politeknik Negeri Batam
+
