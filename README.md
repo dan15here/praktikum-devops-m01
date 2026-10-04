@@ -563,13 +563,13 @@ Postmortem dibuat dengan pendekatan tanpa menyalahkan individu. Fokus utama adal
 
 # 📚 Informasi Praktikum
 
-**Jurusan:**
+**Jurusan:**  
 Teknik Informatika
 
-**Program Studi:**
+**Program Studi:**  
 Rekayasa Keamanan Siber
 
-**Semester:**
+**Semester:**  
 3
 
 **Mata Kuliah:**  
