@@ -127,7 +127,7 @@ Environment yang dibutuhkan:
 Clone repository:
 
 ```bash
-git clone https://github.com/dan15here/praktikum-devops-m01.git
+git clone git@github.com:dan15here/praktikum-devops-m01.git
 ```
 
 Masuk ke directory:
@@ -253,3 +253,12 @@ Topik:
 Politeknik Negeri Batam
 
 ---
+
+## Skrip yang tersedia
+
+| Berkas | Fungsi |
+|---|---|
+| `setup.sh` | Menyiapkan virtual environment, memasang dependensi, dan menjalankan smoke test |
+| `lib/common.sh` | Menyediakan fungsi logging dan validasi yang digunakan bersama |
+| `sysreport.sh` | Membuat laporan kesehatan sistem |
+| `healthwatch.sh` | Memantau kesehatan layanan dan mendeteksi insiden |
