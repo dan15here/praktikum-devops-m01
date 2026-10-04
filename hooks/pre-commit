@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+github_prefix="ghp"
+aws_prefix="AKIA"
+private_marker="PRIVATE KEY"
+variable_names="PASSWORD|SECRET|TOKEN"
+
+credential_pattern="${github_prefix}_|${aws_prefix}[0-9A-Z]{16}|BEGIN[[:space:]].*${private_marker}|(^|[^A-Za-z0-9_])[A-Za-z0-9_]*(${variable_names})[A-Za-z0-9_]*[[:space:]]*="
+
+if git diff --cached --no-ext-diff --unified=0 --diff-filter=ACMR |
+  sed -n '/^+++ /d; /^+/s/^+//p' |
+  grep -Eiq "${credential_pattern}"; then
+  echo "ERROR: commit ditolak karena perubahan staged menyerupai kredensial." >&2
+  exit 1
+fi
+
+while IFS= read -r -d '' file; do
+  case "${file}" in
+    *.sh)
+      if [[ -f "${file}" ]] && ! shellcheck "${file}"; then
+        echo "ERROR: commit ditolak karena ShellCheck menemukan masalah pada ${file}." >&2
+        exit 1
+      fi
+      ;;
+  esac
+done < <(git diff --cached --name-only --diff-filter=ACMR -z)
+
+echo "Pre-commit berhasil: tidak ditemukan kredensial atau masalah ShellCheck."
+exit 0

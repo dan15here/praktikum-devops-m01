@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+message_file="${1:?Lokasi pesan commit tidak diberikan}"
+subject="$(head -n 1 "${message_file}")"
+pattern='^(feat|fix|docs|chore|refactor|test)(\([A-Za-z0-9._-]+\))?!?: .+'
+
+if [[ ! "${subject}" =~ ${pattern} ]]; then
+  echo "ERROR: pesan commit harus mengikuti Conventional Commits." >&2
+  echo "Contoh: feat: tambahkan fitur baru" >&2
+  exit 1
+fi
+
+exit 0
